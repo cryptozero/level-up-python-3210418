@@ -14,7 +14,7 @@ def get_prime_factors(n):
     return result
 
 
-if __name__ == "main":
+if __name__ == "__main__":
     assert get_prime_factors(630) == [2, 3, 3, 5, 7]
     assert get_prime_factors(1) == [1]
     assert get_prime_factors(13) == [13]
